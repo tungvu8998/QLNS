@@ -18,9 +18,12 @@ Lớp: D24TXCN15-K
 ✔ Tự động load dữ liệu vào bảng (JTable)  
 
 ---
-
+## Cách chạy ứng dụng
+1) Cài đặt MySQL & tạo database
+2) Thêm thư viện JDBC Driver : Tải file mysql-connector-j-8.x.x.jar và thêm vào
+3) Chạy file: qlns/ui/QLNhanVienFrame.java
 ## Cơ sở dữ liệu
-- Thêm thư viện JDBC Driver : Tải file mysql-connector-j-8.x.x.jar và thêm vào:
+
 ### Hệ quản trị: **MySQL**
 
 ```sql
