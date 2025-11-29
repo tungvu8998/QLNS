@@ -1,2 +1,51 @@
-# QLNS
-Bài tập lớn Quản lý nhân sự
+Họ tên: Vũ Hữu Tùng
+MSSV: K24DTCN634
+Lớp: D24TXCN15-K
+
+Ứng dụng **Quản lý Nhân viên** được xây dựng bằng **Java Swing** và **JDBC** nhằm giúp sinh viên làm quen với:
+- Lập trình giao diện trên Java
+- Kết nối và thao tác cơ sở dữ liệu MySQL
+- Tổ chức ứng dụng theo mô hình DAO – Model – UI
+- Thao tác CRUD căn bản trong lập trình Java
+
+## Chức năng chính
+
+✔ Hiển thị danh sách nhân viên  
+✔ Thêm mới nhân viên  
+✔ Cập nhật thông tin  
+✔ Xóa nhân viên  
+✔ Reset form nhập  
+✔ Tự động load dữ liệu vào bảng (JTable)  
+
+---
+## Cấu trúc thư mục
+src/
+ ├─ qlns/
+ │   ├─ db/
+ │   │    └─ Database.java
+ │   ├─ dao/
+ │   │    └─ NhanVienDAO.java
+ │   ├─ model/
+ │   │    └─ NhanVien.java
+ │   └─ ui/
+ │        └─ QLNhanVienFrame.java
+ └─ lib/
+      └─ mysql-connector-j-8.x.x.jar
+
+## Cơ sở dữ liệu
+
+### Hệ quản trị: **MySQL**
+
+```sql
+CREATE DATABASE qlnhanvien;
+
+USE qlnhanvien;
+
+CREATE TABLE NhanVien (
+    MaNV VARCHAR(10) PRIMARY KEY,
+    HoTen VARCHAR(100) NOT NULL,
+    ChucVu VARCHAR(50),
+    Luong DOUBLE,
+    Phone VARCHAR(15)
+);
+
