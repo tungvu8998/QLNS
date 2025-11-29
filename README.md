@@ -18,20 +18,6 @@ Lớp: D24TXCN15-K
 ✔ Tự động load dữ liệu vào bảng (JTable)  
 
 ---
-## Cấu trúc thư mục
-src/
- ├─ qlns/
- │   ├─ db/
- │   │    └─ Database.java
- │   ├─ dao/
- │   │    └─ NhanVienDAO.java
- │   ├─ model/
- │   │    └─ NhanVien.java
- │   └─ ui/
- │        └─ QLNhanVienFrame.java
- └─ lib/
-      └─ mysql-connector-j-8.x.x.jar
-
 ## Cơ sở dữ liệu
 
 ### Hệ quản trị: **MySQL**
