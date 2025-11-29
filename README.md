@@ -18,8 +18,9 @@ Lớp: D24TXCN15-K
 ✔ Tự động load dữ liệu vào bảng (JTable)  
 
 ---
-## Cơ sở dữ liệu
 
+## Cơ sở dữ liệu
+- Thêm thư viện JDBC Driver : Tải file mysql-connector-j-8.x.x.jar và thêm vào:
 ### Hệ quản trị: **MySQL**
 
 ```sql
@@ -34,4 +35,3 @@ CREATE TABLE NhanVien (
     Luong DOUBLE,
     Phone VARCHAR(15)
 );
-
